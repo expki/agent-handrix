@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-hendrix",
+  "version": "1.0.0",
+  "description": "A marketplace of Claude Code plugins for Agent Hendrix assisted development.",
+  "owner": {
+    "name": "expki",
+    "email": "expki@vdh.dev"
+  },
+  "plugins": [
+    {
+      "name": "webgpu-lsp",
+      "source": "./webgpu-lsp",
+      "description": "WGSL & WESL language server for Claude Code.",
+      "category": "development"
+    }
+  ]
+}

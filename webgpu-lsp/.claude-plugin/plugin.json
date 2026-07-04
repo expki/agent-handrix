@@ -1,0 +1,28 @@
+{
+  "name": "webgpu-lsp",
+  "version": "1.0.0",
+  "description": "WGSL & WESL language server for Claude Code — diagnostics, go-to-definition, hover, find references, and rename for WebGPU shader development.",
+  "author": {
+    "name": "expki",
+    "email": "expki@vdh.dev"
+  },
+  "homepage": "https://github.com/expki/agent-hendrix/webgpu-lsp",
+  "license": "Unlicense",
+  "keywords": [
+    "wgsl",
+    "wesl",
+    "webgpu",
+    "lsp",
+    "shader",
+    "canvas"
+  ],
+  "lspServers": {
+    "webgpu-lsp": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/wgsl-analyzer-server.sh",
+      "extensionToLanguage": {
+        ".wgsl": "wgsl",
+        ".wesl": "wesl"
+      }
+    }
+  }
+}

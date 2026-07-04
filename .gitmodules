@@ -1,0 +1,3 @@
+[submodule "webgpu-lsp/analyzer"]
+	path = webgpu-lsp/analyzer
+	url = https://github.com/wgsl-analyzer/wgsl-analyzer.git
